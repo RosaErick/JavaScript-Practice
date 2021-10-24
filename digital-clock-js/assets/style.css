@@ -1,0 +1,43 @@
+* {
+padding:0;
+margin:0;
+box-sizing: border-box;
+
+}
+
+body {
+background: url(clock.png);
+
+}
+
+.main {
+background: rgb(66, 148, 224);
+width: 400px;
+margin:100px auto;
+height:175px;
+position: relative;
+padding:30px;
+border-radius: 25px;
+}
+
+.badge {
+background: #ec493b;
+color: #fff;
+padding: 5px 10px;
+font-family: roboto, "Helvetica Neue";
+font-weight: bold;
+width: 96px;
+position: absolute;
+top:-15px;
+left:40%;
+}
+
+.clock {
+background: #ebebeb;
+text-align: center;
+font-size:55px;
+height:100%;
+padding:25px;
+border-radius:4px;
+
+}
