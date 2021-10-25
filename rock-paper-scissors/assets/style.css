@@ -1,0 +1,114 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: monospace;
+
+
+}
+
+body {
+background: url(pattern.png);
+
+
+}
+
+header {
+background: #fff;
+padding:20px;
+}
+
+header h1 {
+color: #25272E;
+text-align: center;
+
+
+}
+
+.scoreboard {
+border: 3px solid rgb(0, 0, 0);
+width: 200px;
+margin:20px auto;
+font-size:45px;
+border-radius: 8px;
+padding: 15px 20px;
+position: relative;
+text-align: center;
+}
+
+.badge {
+background: #E2584D;
+color: #fff;
+font-size: 14px;
+padding: 2px 10px;
+
+
+
+}
+
+#user-label {
+position:absolute;
+top:25px;
+left:-40px;
+
+}
+
+#comp-label {
+position:absolute;
+top:25px;
+right: -40px;
+
+
+
+}
+
+.result p {
+font-size: 40px;
+text-align: center;
+font-weight: bold;
+
+}
+
+.choices {
+margin: 50px 0;
+text-align: center;
+}
+
+.choice {
+display:inline-block;
+margin: 0 20px;
+border: 4px solid #000;
+  background-color: #E2584D;
+border-radius:65px;
+transition: all 0.3s ease;
+}
+
+.choice:hover {
+background-color:#d45450d5
+
+}
+
+.choice:active {
+background-color:rgb(12, 214, 120);
+
+}
+
+.choice img {
+width:100px;
+    padding:10px;
+  
+}
+
+
+#foot-msg {
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.glow {
+border: 4px solid #4dcc7d;
+box-shadow: 0 0 10px #31b43a;
+}
