@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Yuji+Boku&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(imgs/pattsssern.png);
+  font-family: "Roboto Mono", monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem 2rem 2rem 2rem;
+  border-radius: 1rem;
+  margin: 10px auto;
+  width: 35vw;
+}
+
+h1 {
+  margin-bottom: 10px;
+  line-height: 1.2;
+  background: linear-gradient(
+    500deg,
+    rgba(0, 0, 0, 0.8),
+    rgb(0, 0, 0),
+    #000000
+  );
+  color: #fefefe;
+  padding: 0 5px;
+  text-align: center;
+}
+
+section {
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  box-shadow: inset 2px 2px 12px rgb(243, 235, 245);
+}
+
+section > div {
+  padding: 1.6rem 0;
+}
+
+.bill {
+  padding: 10px 0;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bill label {
+  margin: 10px 15px 0 0;
+}
+
+.bill input {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.spacebetween {
+  text-align: left;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+input[type="number"] {
+  background: #ffffff;
+  border: 1px solid lightgrey;
+  border-radius: 1px;
+  padding: 0.8rem 0;
+  box-shadow: inset 0 2px 5px lightgrey;
+}
+
+.range {
+  -webkit-appearance: none;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 5px;
+  outline-color: #5bceae;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1rem;
+  height: 1rem;
+  color: red;
+  border-radius: 2px;
+  background-color: red;
+  cursor: pointer;
+}
