@@ -3,7 +3,7 @@ function playSound(e){
         const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
     
-    if (!audio) return; //faz a função não rodar toda de uma
+    if (!audio) return; //faz a função não rodar toda de uma vez.
     
     audio.currentTime = 0; 
     audio.play();

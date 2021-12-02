@@ -5,6 +5,11 @@ box-sizing: border-box;
 font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+background-image: url('drumkit.png');
+
+
+}
 
 h1{ 
 text-align: center;
@@ -36,8 +41,8 @@ transition: all 0.04s;
 }
 
 kbd {
-color:rgba(8, 42, 153, 0.3);
-
+color:rgb(124, 30, 116);
+font-weight: bold;
 }
 
 .playing {
