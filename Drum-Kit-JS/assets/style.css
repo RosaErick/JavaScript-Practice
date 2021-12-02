@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1{ 
+text-align: center;
+margin:100px 0 0 0;
+}
+
+.keys {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 150px auto;
+flex-wrap: wrap;
+
+
+}
+
+
+.key {
+display: flex;
+align-items: center;
+flex-direction: column;
+border: 2px solid #000000;
+margin:1rem;
+font-size:1rem;
+padding: 12px;
+width: 80px;
+transition: all 0.04s;
+
+}
+
+kbd {
+color:rgba(8, 42, 153, 0.3);
+
+}
+
+.playing {
+transform:scale(1.2);
+border-color:#fcc402;
+box-shadow: 0 0 10px #fcc402;
+
+
+}
