@@ -1,6 +1,6 @@
 # JavaScript-Practice
 
-A repo to keep some javascript small projects i've build while learning JS.
+A repo to keep some javascript small projects i've build while learning JS. Feel free to use, modify and share as you like.
 
 | Pŕojects | Code | Preview |
 |----------|:-------:|-----:|
